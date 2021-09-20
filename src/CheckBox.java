@@ -15,7 +15,7 @@ public class CheckBox implements ActionListener {
 
     JCheckBox checkBox1 = new JCheckBox("Class is covid compliant");
     JCheckBox checkBox2 = new JCheckBox("Class is not covid compliant");
-    JCheckBox checkBox3 = new JCheckBox("Covid? Whats that?");
+    JCheckBox checkBox3 = new JCheckBox("What's Covid?");
 
 
     public CheckBox() {
