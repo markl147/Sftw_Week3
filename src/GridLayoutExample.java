@@ -16,7 +16,7 @@ public class GridLayoutExample extends JFrame {
         getContentPane().add(b3);
         getContentPane().add(b4);
         getContentPane().add(b5);
-        setSize(500, 75);
+        setSize(350, 200);
         setVisible(true);
     }
 
