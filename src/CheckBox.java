@@ -60,3 +60,4 @@ public class CheckBox implements ActionListener {
         new CheckBox();
     }
 }
+
