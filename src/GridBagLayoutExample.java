@@ -6,7 +6,7 @@ public class GridBagLayoutExample extends JFrame {
     JButton b2 = new JButton("Button 2");
     JButton b3 = new JButton("Button 3");
     JButton b4 = new JButton("Button 4");
-    JButton b5 = new JButton("Long Named Button 5");
+    JButton b5 = new JButton("Button 5");
 
     public GridBagLayoutExample() {
 
@@ -37,8 +37,9 @@ public class GridBagLayoutExample extends JFrame {
         gridbag.setConstraints(b4, constraints);
         getContentPane().add(b4);
 
-        constraints.gridx = 4;
-        constraints.gridy = 0;
+        constraints.gridwidth = 3;
+        constraints.gridx = 0;
+        constraints.gridy = 4;
         gridbag.setConstraints(b5, constraints);
         getContentPane().add(b5);
 
