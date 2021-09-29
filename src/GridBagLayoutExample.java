@@ -31,8 +31,9 @@ public class GridBagLayoutExample extends JFrame {
         gridbag.setConstraints(b3, constraints);
         getContentPane().add(b3);
 
-        constraints.gridx = 3;
-        constraints.gridy = 0;
+        constraints.gridwidth = 2;
+        constraints.gridx = 1;
+        constraints.gridy = 1;
         gridbag.setConstraints(b4, constraints);
         getContentPane().add(b4);
 
